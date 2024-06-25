@@ -1,0 +1,26 @@
+패키지 모듈 설치
+> pip install setuptools
+> pip install wheel
+> pip install twine
+
+
+빌드
+> python setup.py sdist
+
+휠 빌드
+> python setup.py bdist_wheel
+
+PYPI 등록
+> twine upload dist/*
+
+
+프로젝트 삭제
+> pip uninstall CodingRider
+
+
+프로젝트 설치
+> pip install CodingRider
+> pip --no-cache-dir install CodingRider
+
+PyPI 경로
+https://pypi.python.org/pypi/CodingRider
